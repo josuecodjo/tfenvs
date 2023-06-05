@@ -1,0 +1,11 @@
+### ignore
+**/.terraform
+**/.terragrunt-cache/*
+**/*.tfstate
+**/*.tfstate.* 
+**/.terraform.lock.hcl
+**/backend.tf
+!sub/backend.tf
+**/.tfplan
+**/providers.tf
+!sub/providers.tf
