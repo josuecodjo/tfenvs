@@ -1,0 +1,7 @@
+container:
+  namespace: front
+  podname: front
+  labels: {}
+  image: "nginx:alpine"
+  name: "container1"
+  port:  80
