@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "${get_parent_terragrunt_dir()}/src"
+  source = "git::https://github.com/josuecodjo/tfsource.git?ref=main"  # "${get_parent_terragrunt_dir()}/src"
 }
 
 locals {

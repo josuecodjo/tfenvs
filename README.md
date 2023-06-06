@@ -3,7 +3,7 @@
 ## Commands
 
 ```
-terragrunt init
+terragrunt run-all init
 terragrunt run-all plan
 
 export MY_STATE_TERRAFORM_NS=super-secure-ns-terraform
