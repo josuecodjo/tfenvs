@@ -1,0 +1,14 @@
+container1:
+    podname: "container1"
+    labels: {}
+    image: "nginx:alpine"
+    name: "container1"
+    port: 80
+
+container2:
+    podname: "container2"
+    labels: {}
+    image: "nginx:alpine"
+    name: "container2"
+    port: 80
+
