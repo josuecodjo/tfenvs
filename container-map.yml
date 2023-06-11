@@ -1,14 +1,17 @@
-container1:
-    podname: "container1"
-    labels: {}
-    image: "nginx:alpine"
-    name: "container1"
-    port: 80
+map-ns:
+    container1: "loop-1"
+    container2: "loop-2"
 
-container2:
-    podname: "container2"
-    labels: {}
-    image: "nginx:alpine"
-    name: "container2"
-    port: 80
-
+container:
+    container1:
+        podname: "container1"
+        labels: {}
+        image: "nginx:alpine"
+        name: "container1"
+        port: 80
+    container2:
+        podname: "container2"
+        labels: {}
+        image: "nginx:alpine"
+        name: "container2"
+        port: 80
